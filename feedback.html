@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> feedback </title>
+    <link rel="stylesheet" type="text/css" href="my_css.css">
+</head>
+
+<body>
+    <!-- Name : Mohammed Hamed AlHarthy -->
+    <!-- Section : 1295 -->
+    <!-- Number : 44000527  -->
+    <header>
+        <nav>
+            <a href="index.html"> Index </a>
+            <a href="about.html"> About </a>
+            <a href="feedback.html"> Feedback </a>
+        </nav>
+    </header>
+    <div class="feedForm">
+        <form method="post" action="serverscript.php">
+            <h1 class="feedHeading">Feedback form</h1>
+            <p class="thanks_message">We thank you for visiting our site, and we would like you to describe your
+                experience on this site
+                through this form</p>
+            <p>
+                <label>
+                    First name : <input class="fname" name="fname" type="text" placeholder="Enter first name here">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Last name : <input class="lname" name="lname" type="text" placeholder="Enter last name here">
+                </label>
+            </p>
+            <p>
+                <label> Country :
+                    <select name="country">
+                        <option>--- Select your country ---</option>
+                        <option>Saudi Arabia</option>
+                        <option>Egypt</option>
+                        <option>Kuwait</option>
+                        <option>Qatar</option>
+                        <option>United Arab Emirates</option>
+                        <option>United States</option>
+                        <option>Canada</option>
+                        <option>Europe</option>
+                    </select>
+                </label>
+            </p>
+            <p class="web_design_para">
+                The website design contains <strong>(you can choose more than one
+                    option):</strong>
+                <br>
+                <br>
+                <input id="colors" name="webDesign" type="checkbox" value="colors">
+                <label for="colors"> Colors are inconsistent</label>
+                <br>
+                <input id="webPage" name="webDesign" type="checkbox" value="inconsistent">
+                <label for="webPage"> Webpage are inconsistent</label>
+                <br>
+                <input id="webPage2" name="webDesign" type="checkbox" value="more_editing">
+                <label for="webPage2"> Webpage needs more editing</label>
+                <br>
+                <input id="webPage3" name="webDesign" type="checkbox" value="more_coloring">
+                <label for="webPage3"> Webpage needs more coloring</label>
+                <br>
+                <input id="webPage4" name="webDesign" type="checkbox" value="images">
+                <label for="webPage4"> Webpage needs to add images </label>
+                <br>
+                <input id="webPage5" name="webDesign" type="checkbox" value="no_issue">
+                <label for="webPage5">There is no any issue in the webpage</label>
+
+            </p>
+            <p class="atten_para">
+                What catches your attention the most on our site? <strong>(you can choose only one
+                    option):</strong>
+
+                <br>
+                <br>
+                <input id="navigation" name="attention" type="radio" value="navigation">
+                <label for="navigation"> Ease of navigate from page to page </label>
+                <br>
+                <input id="coloring" name="attention" type="radio" value="coloring">
+                <label for="coloring"> Coloring </label>
+                <br>
+                <input id="layout" name="attention" type="radio" value="layout">
+                <label for="layout"> Layout consistency </label>
+                <br>
+                <input id="nothing" name="attention" type="radio" value="nothing">
+                <label for="nothing"> Nothing caught my attention </label>
+
+            </p>
+
+            <p class="feed_sugg_para">
+                <strong>Is there anything else you would suggest for us to improve our site? Enter your feedback below
+                    .</strong>
+                <br>
+                <br>
+                <label> Feedback :</label><br>
+                <textarea name="Feedback" rows="20" cols="50">Enter your feedback here </textarea>
+
+            </p>
+            <p>
+                <input class="submit" type="submit" value="Submit">
+                <input class="reset" type="reset" value="Reset">
+            </p>
+            <br>
+            <br>
+        </form>
+    </div>
+    <footer>
+        <p class="contact"><strong>Contact with us :</strong></p>
+        <p><a href="mailto:s44000527@students.tu.edu.sa">Email </a></p>
+        <p><a href="https://twitter.com/" target="_blank">Twitter</a></p>
+        <p><a href="https://www.youtube.com/" target="_blank">Youtube</a></p>
+        <p><a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
+        <p><a href="https://www.linkedin.com/" target="_blank">Linkedin</a></p>
+        <p><a href="https://www.snapchat.com/en-US" target="_blank">Snapchat</a></p>
+        <p><a href="https://web.telegram.org" target="_blank">Telegram</a></p>
+    </footer>
+</body>
+
+</html>
